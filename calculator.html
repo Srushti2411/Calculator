@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #ccebff;
+    }
+    .text{
+        text-align: center;
+        color: #000;
+    }
+    .calculator_container{
+        background-color:#9494b8;
+        height: 400px;
+        width: 300px;
+        display: block;
+        margin: auto;
+        border-radius: 15px;
+        padding: 40px;
+        padding-top: 10px;
+    }
+    .screen{
+        text-align: center;
+        background-color:#b3ffb3 ;
+        height: 75px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        border: none;
+        font-size: 40px;
+    }
+    .brand_name{
+        text-align: right;
+        font-weight: bold;
+        color: white;
+    }
+    .btn{
+        font-size: 40px;
+        height: 60px;
+        width: 60px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .btn:hover{
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: 0 0 10px #fff ;
+    }
+    .btn_container{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .btn_special{
+        background-color:tomato;
+        color:white;
+    }
+</style>
+</head>
+<body>
+    <h1 class="text">Calculator</h1>
+    <div class="calculator_container">
+        <div>
+            <p class="brand_name">SG</p>
+            <input type="text" class="screen">
+        </div>
+        <div class="btn_container">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn btn_special">+</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn btn_special">-</button>
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn btn_special">x</button>
+
+            <button class="btn btn_special">.</button>
+            <button class="btn">0</button>
+            <button class="btn btn_special">=</button>
+            <button class="btn btn_special">/</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
